@@ -929,6 +929,8 @@ svg.menu-icon-house {
   padding: 5px 15px 5px 15px;
   background-color: var(--main-dim);
   box-shadow: 0 5px 5px -6px var(--shadow) inset;
+  position: fixed;
+  bottom: 0;
 }
 .footer-wrapper {
   display: grid;
