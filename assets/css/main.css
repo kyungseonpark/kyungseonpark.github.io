@@ -1892,7 +1892,7 @@ a.post-list-title {
     text-decoration: none;
     font-family: var(--font2);
     font-weight: var(--font2-bold);
-    font-size: 1.25em;
+    font-size: 1.75em;
 }
 a.read-more {
     color: var(--accent);
