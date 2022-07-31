@@ -953,8 +953,9 @@ svg.menu-icon-house {
 .copyright {
   text-align: center;
   color: var(--footer);
+  text-decoration: none;
   font-size: 14px;
-  opacity: 0.75;
+  font-weight: var(--font2-bold);
 }
 .footer-nav {
   display: flex;
