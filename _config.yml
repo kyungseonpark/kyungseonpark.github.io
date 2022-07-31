@@ -6,7 +6,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://kyungseonpark.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/img/branding/pks_mimo_logo.png"
 logo-icon: "/assets/img/branding/pks_mimo.png"
-logo-icon-SEO: "/assets/img/branding/pks_mimo.svg" # must be a non SVG file
+logo-icon-SEO: "/assets/img/branding/pks_mimo.png" # must be a non SVG file
 
 # Night/Dark mode
 # Default mode is "auto", "auto" is for auto nightshift
@@ -34,9 +34,9 @@ phone: # Add your Phone number
 website: https://kyungseonpark.github.io # Add your website
 linkedin: kyungseonapark # Add your Linkedin handle
 github: kyungseonpark # Add your Github handle
-twitter: '@MvmThe' # Add your Twitter handle
-bandcamp: armandomaynez # Add your Bandcamp username
-stackoverflow: stackoverflow # Add your stackoverflow account
+#twitter: '@MvmThe' # Add your Twitter handle
+#bandcamp: armandomaynez # Add your Bandcamp username
+#stackoverflow: stackoverflow # Add your stackoverflow account
 
 # Newsletter
 mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
@@ -46,7 +46,7 @@ analytics: G-R8SZS2YBZK
 fbadmin: ar.maybach
 
 # Paginate
-paginate: 6
+paginate: 10
 paginate_path: 'page:num'
 words_per_minute: 200
 
@@ -71,7 +71,7 @@ compress_html:
   startings: [html, head, body]
 
 # Outputting
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 category_archive:
   type: liquid
