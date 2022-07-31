@@ -26,7 +26,8 @@ highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code h
 # Author settings
 author: Kyungseon Park # add your name
 author-pic: pks_mus.png
-about-author: I am an ML engineer, and I am currently studying MLops with interest. If you want to know me more, press the picture.
+#about-author: I am an ML engineer, and I am currently studying MLops with interest. If you want to know me more, press the picture.
+about-author: 저는 Aizen에서 ML Engineer로 근무하고 있습니다. 최근에는 MLOps에 관심을 갖고 공부하고있습니다. 만약 제 정보가 더 필요하시다면 프로필 사진을 눌러주세요.
 
 # Contact links
 email: gseon130@gmail.com # Add your Email address
