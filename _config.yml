@@ -32,6 +32,7 @@ about-author: Engineer, industry executive, research enthusiast. Avid learner wi
 email: gseon130@gmail.com # Add your Email address
 phone: # Add your Phone number
 website: https://kyungseonpark.github.io # Add your website
+resume: https://www.notion.so/kseon/Park-Kyungseon-b436642807df4e7886b1e175cacd0fbf
 linkedin: kyungseonapark # Add your Linkedin handle
 github: kyungseonpark # Add your Github handle
 #twitter: '@MvmThe' # Add your Twitter handle
@@ -51,7 +52,7 @@ paginate_path: 'page:num'
 words_per_minute: 200
 
 # Comments
-comments: 'disqus'  #[disqus, utteranc]
+comments: disqus  #[disqus, utteranc]
 comments_opts:
   comments_curtain: yes # leave empty to show the disqus embed directly
 #  repo: # The GitHub repo URL.  https://utteranc.es/
