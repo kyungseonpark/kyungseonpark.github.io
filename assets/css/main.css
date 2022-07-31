@@ -16,6 +16,7 @@ html {
   --background:   #ffffff;
   --shadow:       rgba(32,30,30,.3);
   --github:       #333;
+  --footer:       #A27B5C;
   --font1: 'Lora', charter, Georgia, Cambria, 'Times New Roman', Times, serif;/* body text */
   --font2: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* headers and titles   */
   --font1-light:      400;
@@ -28,18 +29,19 @@ html {
 
 html[data-theme="dark"]  {
   --accent:       #d14c47;    /* accent     */
-  --accent-dark:  #DBBEA1;    /* accent 2   */
+  --accent-dark:  #A27B5C;    /* accent 2   */
   --main:         #5F8081;    /* main color */
   --main-dim:     #333D47;    /* dimmed version of main color */
-  --text:         #CBCCCD;
+  --text:         #DCD7C9;
   --grey1:        #B1B1AE;
   --grey2:        #959692;
   --grey3:        #7C7E7B;
   --grey4:        #636564;
   --grey5:        #3B3D40;
-  --background:   #2B323B;
+  --background:   #2C3639;
   --shadow:       rgba(0,0,0,.3);
   --github:       #000;
+  --footer:       #A27B5C;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -965,7 +967,7 @@ svg.menu-icon-house {
   justify-content: center;
 }
 .footer-nav a {
-  color: var(--grey4);
+  color: var(--footer);
   text-decoration: none;
   font-size: 14px;
   font-weight: var(--font2-bold);
