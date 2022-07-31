@@ -929,8 +929,6 @@ svg.menu-icon-house {
   padding: 5px 15px 5px 15px;
   background-color: var(--main-dim);
   box-shadow: 0 5px 5px -6px var(--shadow) inset;
-  position: fixed;
-  bottom: 0;
 }
 .footer-wrapper {
   display: grid;
@@ -1567,7 +1565,7 @@ img + small, img + br + small {
 .recent-item-img {
   position: relative;
   display: inline-block;
-  width: 45%;
+  width: 49%;
   height: 150px;
   margin-left: 0.5%;
   margin-bottom: 0.5%;
