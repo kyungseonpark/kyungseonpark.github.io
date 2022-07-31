@@ -1708,10 +1708,10 @@ img + small, img + br + small {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 30px;
-  padding-bottom: 30px;
+  margin-top: 20px;
+  padding-bottom: 20px;
   border-bottom: 1px solid var(--grey4);
-  font-size:1em;
+  font-size:1.5em;
 }
 .narrow-column{
     display: inline-block;
@@ -1737,7 +1737,6 @@ img + small, img + br + small {
     display: inline-block;
     margin-block-start: 0;
     padding-inline-start: 0;
-    text-align: center;
 }
 .contact-icons ul {
   list-style: none;
