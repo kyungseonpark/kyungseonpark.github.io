@@ -1563,7 +1563,7 @@ img + small, img + br + small {
 .recent-item-img {
   position: relative;
   display: inline-block;
-  width: 24%;
+  width: 35%;
   height: 150px;
   margin-left: 0.5%;
   margin-bottom: 0.5%;
