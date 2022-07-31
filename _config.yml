@@ -26,13 +26,13 @@ highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code h
 # Author settings
 author: Kyungseon Park # add your name
 author-pic: pks_mus.png
-about-author: Engineer, industry executive, research enthusiast. Avid learner with diverse interests in coding, machine learning, artificial intelligence and reinforcement learning. 17+ years of experience working in multinational corporations.
+about-author: I am an ML engineer, and I am currently studying MLops with interest. If you want to know me more, press the picture.
 
 # Contact links
 email: gseon130@gmail.com # Add your Email address
 phone: # Add your Phone number
 website: https://kyungseonpark.github.io # Add your website
-resume: https://www.notion.so/kseon/Park-Kyungseon-b436642807df4e7886b1e175cacd0fbf
+resume: https://kseon.notion.site/Park-Kyungseon-b436642807df4e7886b1e175cacd0fbf
 linkedin: kyungseonapark # Add your Linkedin handle
 github: kyungseonpark # Add your Github handle
 #twitter: '@MvmThe' # Add your Twitter handle
