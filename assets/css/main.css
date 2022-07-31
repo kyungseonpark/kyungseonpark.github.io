@@ -2107,12 +2107,12 @@ a.read-more:hover {
     html{margin:0;padding:0;min-height:auto !important;font-size:16px}
     body{margin:0 auto;background:white !important;color:#000 !important;font-size:1rem;line-height:1.5;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
     h1,h2,h3,h4,h5,h6{color:#000;line-height:1.2;margin-bottom:0.75rem;margin-top:0}
-    h1{font-size:1.5rem}
-    h2{font-size:1.25rem}
-    h3{font-size:1rem}
-    h4{font-size:0.75rem}
-    h5{font-size:0.5rem}
-    h6{font-size:0.375rem}
+    h1{font-size:1.75rem}
+    h2{font-size:1.5rem}
+    h3{font-size:1.25rem}
+    h4{font-size:1rem}
+    h5{font-size:0.75rem}
+    h6{font-size:0.5rem}
     a,a:visited{color:#000;text-decoration:underline;word-wrap:break-word}
     table{border-collapse:collapse}
     thead{display:table-header-group}
