@@ -1740,12 +1740,12 @@ img + small, img + br + small {
 }
 .contact-icons ul {
   list-style: none;
-  margin: 0;
   padding: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 .contact-icons li {
   display: inline-block;
-  margin-left: 10px;
   margin-left: 5px;
   margin-right: 5px;
 }
