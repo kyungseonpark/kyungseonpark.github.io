@@ -5,7 +5,7 @@
 html {
   --accent:       #DB504A;    /* accent     */
   --accent-dark:  #4e3e51;    /* accent 2   */
-  --main:         #326273;    /* main color */
+  --main:         #2C3639;    /* main color */
   --main-dim:     #2C3639;    /* dimmed version of main color */
   --text:         #A27B5C;
   --grey1:        #5F5E58;
@@ -29,13 +29,13 @@ html {
 html[data-theme="dark"]  {
   --accent:       #d14c47;    /* accent     */
   --accent-dark:  #DBBEA1;    /* accent 2   */
-  --main:         #5F8081;    /* main color */
+  --main:         #A27B5C;    /* main color */
   --main-dim:     #333D47;    /* dimmed version of main color */
   --text:         #CBCCCD;
   --grey1:        #B1B1AE;
   --grey2:        #959692;
   --grey3:        #7C7E7B;
-  --grey4:        #636564;
+  --grey4:        #A27B5C;
   --grey5:        #3B3D40;
   --background:   #2B323B;
   --shadow:       rgba(0,0,0,.3);
