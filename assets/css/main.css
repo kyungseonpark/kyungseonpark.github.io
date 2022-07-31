@@ -627,6 +627,7 @@ svg {
 .main-nav ul li a:hover {
   opacity: .8;
   color: var(--accent-dark);
+  font-weight: var(--font2-bold);
 }
 .menu-icon-container {
   width: 25%;
@@ -1563,7 +1564,7 @@ img + small, img + br + small {
 .recent-item-img {
   position: relative;
   display: inline-block;
-  width: 40%;
+  width: 45%;
   height: 150px;
   margin-left: 0.5%;
   margin-bottom: 0.5%;
