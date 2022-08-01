@@ -8,7 +8,6 @@ description: "post git-Blog"
 img: posts/cover/typing_man.png
 tags: [gitblog, post]
 author: Kyungseon Park
-gitHub: kyungseonpark/kyungseonpark.github.io
 toc: yes
 ---
 # 앞으로 블로그를 시작하기 위한 글.
