@@ -10,6 +10,7 @@ tags: [gitblog, post]
 author: Kyungseon Park
 toc: yes
 ---
+
 # 앞으로 블로그를 시작하기 위한 글.
 
  나는 Notion으로 블로그를 관리해보려고했다. oopy를 이용하면 호스팅도 굉장히 편했고 Notion의 강력한 임베딩 기능들은 굉장히 매력적이었다. 하지만 oopy구독비용+개인Host DNS비용까지 합하면 한달에 1만원을 사용하기에는 그만한 가치가 있나 생각하게되었다...
