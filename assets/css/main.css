@@ -1711,7 +1711,7 @@ img + small, img + br + small {
   margin-top: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid var(--grey4);
-  font-size:1.5em;
+  font-size:1.2em;
 }
 .narrow-column{
     display: inline-block;
