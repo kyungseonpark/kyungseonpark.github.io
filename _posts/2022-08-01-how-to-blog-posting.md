@@ -2,8 +2,9 @@
 layout: post
 read_time: true
 show_date: true
-title: "GitBlog 포스팅하는 방법"
+title: GitBlog 포스팅하는 방법
 date: 2022-08-01 21:29:00 -0600
+description: "post git-Blog"
 img: posts/cover/typing_man.png
 tags: [gitblog, post]
 author: Kyungseon Park
@@ -28,7 +29,7 @@ show_date: true # 작성일자 보여줄거니?
 title: GitBlog 포스팅하는 방법 # 포스팅 제목
 date: 2022-08-01 21:29:00 -0600 # 포스팅의 작성 시간 뻥쳐도 모를듯.
 img: posts/cover/typing_man.png # 커버이미지, 노션에서 이것도 너무 좋았는데 글쓰는데 고민할거리가 늘었다.
-Tags: [gitblog, post] # 카테고리 태그
+tags: [gitblog, post] # 카테고리 태그
 Author: kyungseon park # 작성자(내이름)
 gitHub: kyungseonpark # 깃헙 옵션 프로젝트관련글일때 레포 연결
 toc: yes # Table of Contents
