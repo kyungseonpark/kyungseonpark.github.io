@@ -105,9 +105,9 @@ I picked up a template, just forked the repository and started modifying the fil
 - responsive footer menu and footer logo ([if setup in the config file](https://github.com/the-mvm/the-mvm.github.io/blob/d4a67258912e411b639bf5acd470441c4c219544/_config.yml#L7))
 - smoother menu animations 
 
-![my new blog](./assets/img/template_screenshots/homepage-responsive.jpg)
+![my new blog](../assets/img/template_screenshots/homepage-responsive.jpg)
 
-![night theme toggle](./assets/img/template_screenshots/light-toggle.png)
+![night theme toggle](../assets/img/template_screenshots/light-toggle.png)
 
 As a summary, Hugo and Gatsby might be much faster than Jekyll to build the sites, but their complexity I think makes them useful for a big site with plenty of posts. For a small site like mine, Jekyll provides sufficient functionality and power without the hassle.
 
