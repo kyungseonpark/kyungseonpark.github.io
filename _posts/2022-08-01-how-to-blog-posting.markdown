@@ -1,10 +1,10 @@
 ---
 layout: post
 show_date: true
-title: GitBlog 포스팅하는 방법
-date: 2022-08-01 21:29:00
-description: "post git-Blog"
-img: posts/cover/typing_man.jpg
+title:  GitBlog 포스팅하는 방법
+date:   2022-08-01 21:29:12
+description: post git-Blog
+img: posts/20210312/nnet_optimization.jpg
 tags: [gitblog, post]
 author: Kyungseon Park
 toc: yes
