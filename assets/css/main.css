@@ -1722,11 +1722,11 @@ img + small, img + br + small {
 }
 .author-box .author-img {
   width: 120px;
-  margin-right: 30px;
+  /*margin-right: 30px;*/
   -webkit-border-radius: 100%;
           border-radius: 100%;
   vertical-align: middle;
-  margin-top: 30px;
+  /*margin-top: 30px;*/
 }
 .author-desc h2 {
   margin: 0 0 10px;
@@ -1736,8 +1736,10 @@ img + small, img + br + small {
 }
 .contact-icons {
     display: inline-block;
-    margin-block-start: 0;
+    /*margin-block-start: 0;*/
     padding-inline-start: 0;
+    display: flex;
+    justify-content: center;
 }
 .contact-icons ul {
   list-style: none;
