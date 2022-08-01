@@ -1,6 +1,5 @@
 ---
 layout: post
-read_time: true
 show_date: true
 title: GitBlog 포스팅하는 방법
 date: 2022-08-01 21:29:00 -0600
