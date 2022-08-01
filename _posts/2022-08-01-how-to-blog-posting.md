@@ -15,7 +15,7 @@ toc: yes
 
  나는 Notion으로 블로그를 관리해보려고했다. oopy를 이용하면 호스팅도 굉장히 편했고 Notion의 강력한 임베딩 기능들은 굉장히 매력적이었다. 하지만 oopy구독비용+개인Host DNS비용까지 합하면 한달에 1만원을 사용하기에는 그만한 가치가 있나 생각하게되었다...
 
-![흠터레스팅 짤 모음.jpg.gif : 클리앙](../asset/img/20220801/2022-08-01-how-to-blog-posting/d7798c12900cb.gif){: width="50%" height="50%"}
+<img alt="흠터레스팅 짤 모음.jpg.gif : 클리앙" height="50%" src="../assets/img/posts/20220801/2022-08-01-how-to-blog-posting/d7798c12900cb.gif" width="50%"/>
 
  자기개발 비용이라고 생각할 수 있지만....닭강정 하나 사먹는게 더 좋아서 gitblog를 시작하게되었다. 근데 markdown으로 하려니 너무 어려워 정리해놓고 틈틈히 컨닝하면서 작성하기 위해 작성하는 글이다.
 
@@ -38,7 +38,7 @@ toc: yes # Table of Contents
 
  Typora를 통해 작성할것같다. 이미지 저장폴더만 잘 지정해놓으면 알아서 잡힌다. 너무 편하다.
 
-![신난다 > 짤투데이](../asset/img/20220801/2022-08-01-how-to-blog-posting/1028612757_QXZ7yAY3_4da70b8eb1aaf0fe157b0fa73f607f4f8281da36.gif)
+![신난다 > 짤투데이](../assets/img/posts/20220801/2022-08-01-how-to-blog-posting/1028612757_QXZ7yAY3_4da70b8eb1aaf0fe157b0fa73f607f4f8281da36.gif)
 
  블로그 꾸미느라 시간가는줄 몰랐다. 나의 섬세함을 한껏 뽐냈다.
 
@@ -71,4 +71,4 @@ toc: yes # Table of Contents
 
 아무턴가네 맞든 말든 내가 공부하고 생각한 것들을 정리하며 쓸 생각이다.
 
-![열심히 할테니 잘 부탁드린다는 자막의 펭수움짤](../asset/img/20220801/2022-08-01-how-to-blog-posting/995AE84A5E307BEA05-20220801215343225.png)
+<img alt="열심히 할테니 잘 부탁드린다는 자막의 펭수움짤" height="50%" src="../assets/img/posts/20220801/2022-08-01-how-to-blog-posting/995AE84A5E307BEA05-20220801215343225.png" width="50%"/>
