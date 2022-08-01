@@ -17,7 +17,8 @@ html {
   --shadow:       rgba(32,30,30,.3);
   --github:       #333;
   --footer:       #A27B5C;
-  --font1: 'Sunflower', 'Lora', charter, Georgia, Cambria, 'Times New Roman', Times, serif;/* body text */
+  /*--font1: 'Sunflower', 'Lora', charter, Georgia, Cambria, 'Times New Roman', Times, serif;!* body text *!*/
+  --font1: 'Sunflower';/* body text */
   --font2: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* headers and titles   */
   --font1-light:      400;
   --font1-regular:    400;
@@ -1711,7 +1712,7 @@ img + small, img + br + small {
   margin-top: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid var(--grey4);
-  font-size:1.2em;
+  font-size:0.8em;
 }
 .narrow-column{
     display: inline-block;
