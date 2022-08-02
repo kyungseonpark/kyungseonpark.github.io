@@ -109,7 +109,7 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
+  font-family: 'Sunflower', 'Sunflower'; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -152,7 +152,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
+  font-family: 'Sunflower', 'Sunflower'; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -464,7 +464,7 @@ blockquote {
 pre {
   padding: 16px 32px;
   overflow-x: auto;
-  font-family: monospace;
+  font-family: 'Sunflower';
   font-size: 0.75rem;
 }
 pre code {
@@ -473,7 +473,7 @@ pre code {
   padding-left: 0;
 }
 code {
-  font-family: monospace;
+  font-family: 'Sunflower';
   font-size: 0.75rem;
 }
 svg {
