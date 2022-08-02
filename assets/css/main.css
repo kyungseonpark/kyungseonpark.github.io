@@ -17,8 +17,10 @@ html {
   --shadow:       rgba(32,30,30,.3);
   --github:       #333;
   --footer:       #A27B5C;
-  --font1: 'Sunflower', 'Lora', charter, Georgia, Cambria, 'Times New Roman', Times, serif;/* body text */
-  --font2: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* headers and titles   */
+  /*--font1: 'Sunflower', 'Lora', charter, Georgia, Cambria, 'Times New Roman', Times, serif;!* body text *!*/
+  --font1: 'Noto Sans KR', sans-serif;/* body text */
+  /*--font2: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; !* headers and titles   *!*/
+  --font2: 'Noto Sans KR', sans-serif; /* headers and titles   */
   --font1-light:      400;
   --font1-regular:    400;
   --font1-bold:       600;
@@ -108,7 +110,7 @@ hr {
  */
 
 pre {
-  font-family: 'Sunflower', 'Sunflower'; /* 1 */
+  font-family: 'Noto Sans KR', sans-serif; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -151,7 +153,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: 'Sunflower', 'Sunflower'; /* 1 */
+  font-family: 'Noto Sans KR', sans-serif; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -463,7 +465,7 @@ blockquote {
 pre {
   padding: 16px 32px;
   overflow-x: auto;
-  font-family: 'Sunflower';
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 0.75rem;
 }
 pre code {
@@ -472,7 +474,7 @@ pre code {
   padding-left: 0;
 }
 code {
-  font-family: 'Sunflower';
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 0.75rem;
 }
 svg {
@@ -802,7 +804,7 @@ svg.menu-icon-house {
 .results-search > * p {
   font-weight: var(--font1-light);
   color: var(--grey3);
-  font-size: 1em;
+  font-size: 1.4em;
   line-height: 1.3;
 }
 
