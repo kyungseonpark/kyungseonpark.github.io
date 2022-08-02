@@ -2,13 +2,13 @@
 layout: post
 read_time: true
 show_date: true
-title:  GitBlog 포스팅하는 방법
-date:   2022-08-01 12:29:12 -0600
+title: GitBlog 포스팅하는 방법
+date: 2022-08-01 12:29:12 -0600
 description: post git-Blog
-img: posts/cover/typing_man.jpg
+img: posts/cover/typing_man.png
 tags: [gitblog, post]
 author: Kyungseon Park
-github: kyungseonpark/kyungseonpark.github.io
+github: kyungseonpark
 toc: yes
 ---
 
