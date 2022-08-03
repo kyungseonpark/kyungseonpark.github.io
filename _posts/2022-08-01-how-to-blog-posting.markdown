@@ -16,7 +16,7 @@ toc: yes
 
  나는 Notion으로 블로그를 관리해보려고했다. oopy를 이용하면 호스팅도 굉장히 편했고 Notion의 강력한 임베딩 기능들은 굉장히 매력적이었다. 하지만 oopy구독비용+개인Host DNS비용까지 합하면 한달에 1만원을 사용하기에는 그만한 가치가 있나 생각하게되었다...
 
-<img alt="흠터레스팅 짤 모음.jpg.gif : 클리앙" height="50%" src="../assets/img/posts/2022-08-01-how-to-blog-posting/d7798c12900cb.gif" width="50%"/>
+<img alt="흠터레스팅 짤 모음.jpg.gif : 클리앙" height="20%" src="../assets/img/posts/2022-08-01-how-to-blog-posting/d7798c12900cb.gif" width="20%"/>
 
  자기개발 비용이라고 생각할 수 있지만....닭강정 하나 사먹는게 더 좋아서 gitblog를 시작하게되었다. 근데 markdown으로 하려니 너무 어려워 정리해놓고 틈틈히 컨닝하면서 작성하기 위해 작성하는 글이다.
 
@@ -84,7 +84,7 @@ Notion처럼 동영상(YouTube)이나 웹을 직접 화면에 넣기위해 사�
 <a href="https://kyungseonpark.github.io/">PKS Git-blog</a>
 ```
 
-<a href="https://kyungseonpark.github.io/">PKS Git-blog</a>
+:link:<a href="https://kyungseonpark.github.io/">PKS Git-blog</a>
 
 ## 마무리
 
