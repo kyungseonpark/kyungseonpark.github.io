@@ -1202,7 +1202,7 @@ a.tag.side {
 /* = = = = = = = = = = Right Sidebar TOC  = = = = = = = = = = */
 aside.toc {
   line-height: 1.4;
-  font-size: .5em;
+  font-size: .7em;
   font-family: sans-serif;
   font-weight:var(--font1-bold);
   width: max-content;
@@ -1495,7 +1495,7 @@ img + small, img + br + small {
 }
 .header-page h1 {
   font-weight: var(--font2-regular);
-  font-size: 4.25rem;
+  font-size: 3rem;
   text-align: left;
   margin: 0 0 10px;
   color: var(--text)
