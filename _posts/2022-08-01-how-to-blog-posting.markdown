@@ -68,6 +68,24 @@ toc: yes # Table of Contents
 2. 친구들이
 3. 입력돼영
 
+## Web 임베딩 하기
+
+Notion처럼 동영상(YouTube)이나 웹을 직접 화면에 넣기위해 사용하면 좋을것같다.
+
+```html
+<iframe width="560" height="315" src="https://kyungseonpark.github.io/" title="PKS Git-Blog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
+
+<iframe width="560" height="315" src="https://kyungseonpark.github.io/" title="PKS Git-Blog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Web 북마크 생성하기
+
+```html
+<a href="https://kyungseonpark.github.io/">PKS Git-blog</a>
+```
+
+<a href="https://kyungseonpark.github.io/">PKS Git-blog</a>
+
 ## 마무리
 
 아무턴가네 맞든 말든 내가 공부하고 생각한 것들을 정리하며 쓸 생각이다.
