@@ -37,17 +37,17 @@
 <meta property="article:published_time" content="{{ page.date }}" />
 <meta property="article:modified_time" content="{{ page.date }}" />
 <meta property="article:tag" content="{% for tag in page.tags %}{{tag}}{% if forloop.last == false %}, {% endif %}{% endfor %}" />
-<meta property="fb:admins" content="{{ site.fbadmin }}" />
+<!--<meta property="fb:admins" content="{{ site.fbadmin }}" />-->
 <!-- Schema.org markup for Google -->
 <meta itemprop="name" content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}">
 <meta itemprop="description" content="{{ page.description }}">
 <meta itemprop="image" content="{{ site.url }}/assets/img{{ page.img }}">
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="{{ site.twitter }}">
+<!--<meta name="twitter:site" content="{{ site.twitter }}">-->
 <meta name="twitter:title" content="{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}">
 <meta name="twitter:description" content="{{ page.description | truncate: 200 }}">
-<meta name="twitter:creator" content="{{% site.twitter %}}">
+<!--<meta name="twitter:creator" content="{{% site.twitter %}}">-->
 <meta data-rh="true" name="twitter:label1" content="Word count"/>
 <meta data-rh="true" name="twitter:data1" content="{{ words }}"/>
 <meta name="twitter:image:src" content="{{ site.url }}/assets/img/{{ page.img }}">
