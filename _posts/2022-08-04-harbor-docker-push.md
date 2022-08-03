@@ -4,7 +4,7 @@ read_time: true
 show_date: true
 title: Harbor(Cloud, Server)에 Docker Push(Upload)
 date: 2022-08-04 12:29:12 -0600
-description: harbor에 docker image 저장하는 법
+description: harbor, docker image push
 img: posts/cover/docker.png
 tags: [docker]
 author: Kyungseon Park
