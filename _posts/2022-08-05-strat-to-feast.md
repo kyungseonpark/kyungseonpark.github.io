@@ -25,7 +25,7 @@ Feast는 Feature Store의 준말로
 
 를 제공하는 오픈소스 프레임워크입니다. 현재 stable(1.0.0) 버전은 없습니다. 그들이 정해놓은 <a href="https://docs.feast.dev/roadmap">Roadmap</a>을 기준으로 개발중이며 2022년 8월 5일 기준 <a href="https://github.com/feast-dev/feast/tree/v0.23-branch">0.23-branch</a>가 배포되었습니다.
 
-<img src="../assets/img/posts/2022-08-05-strat-to-feast/spaces%2Fy7oh9594qnw3LtHWSeDS%2Fuploads%2Fgit-blob-0a7b044b098864001876e11fbb35bfe04007bb60%2Ffeast-marchitecture.png" alt="img" width="67%" height="67%"/>
+<img src="../assets/img/posts/2022-08-05-strat-to-feast/feast_architecture.png" alt="img" width="67%" height="67%"/>
 
 ## 모델 학습 및 배포에 이용할 데이터를 일관성있게 제공
 
