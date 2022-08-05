@@ -49,7 +49,7 @@ pip install feast
 
 # How to run Feast on M1
 
-:link: https://github.com/feast-dev/feast/issues/2105
+:link:  <a href="https://github.com/feast-dev/feast/issues/2105/">https://github.com/feast-dev/feast/issues/2105</a>
 
 m1 install feast 뭐 이런 검색어로 입력하면 처음 나오는 페이지. Feast 개발팀의 GitHub 이슈 페이지다. m1에서 되는지는 나는 모르겠고 m2는 안됑...
 
@@ -59,7 +59,7 @@ Python의 친구 Anaconda로 가상환경을 구성해서 그런건가....혹시
 
 # Requirement를 직접 설치해보자
 
-:link: https://github.com/feast-dev/feast/tree/v0.23-branch/sdk/python/requirements
+:link: <a href="https://github.com/feast-dev/feast/tree/v0.23-branch/sdk/python/requirements">https://github.com/feast-dev/feast/tree/v0.23-branch/sdk/python/requirements</a>
 
 현재 2022년 8월 5일 기준 v0.23-branch가 최종 배포판이며 requirement에서 뭐가 문제인지 찾아보고자 하는 접근방법이다.
 
@@ -73,7 +73,7 @@ pip install -r py3.8-requirements.txt
 
 근데 분명 에러가 날거다. 그래야 내가 덜 억울하다. grpcio 설치하는데 에러가 날거다.
 
-:link: https://anaconda.org/conda-forge/grpcio
+:link: <a href="https://anaconda.org/conda-forge/grpcio">https://anaconda.org/conda-forge/grpcio</a>
 
 conda로 설치해보자.
 
@@ -138,7 +138,7 @@ hint: See above for details.
 
 가 뜨네....
 
-:link: https://velog.io/@max9106/mac%EC%97%90-MySQL-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0-4ck17gzjk3 를 참고하여
+:link: <a href="https://velog.io/@max9106/mac%EC%97%90-MySQL-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0-4ck17gzjk3">https://velog.io/@max9106/mac%EC%97%90-MySQL-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0-4ck17gzjk3</a> 를 참고하여
 
 ```shell
 brew update
@@ -158,7 +158,7 @@ pip install mysqlclient==2.1.1
 
 subprocess-exited-with-error
 
-:link: https://github.com/psycopg/psycopg2/issues/1200
+:link: <a href="https://github.com/psycopg/psycopg2/issues/1200">https://github.com/psycopg/psycopg2/issues/1200</a>
 
 ```shell
 export LDFLAGS="-L/usr/local/opt/openssl/lib"
