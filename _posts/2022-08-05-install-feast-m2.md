@@ -1,5 +1,5 @@
 ---
-layout: PBD
+layout: post
 read_time: true
 show_date: true
 title: Apple Silicon M2, install Feast
@@ -178,3 +178,7 @@ pip install grpcio-tools
 ```
 
 하면 그냥 설치된다.
+
+
+
+> ㅠㅠㅠ 아직도 진행중이다 도와주십쇼.
