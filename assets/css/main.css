@@ -1490,7 +1490,7 @@ img + small, img + br + small {
 }
 
 .page-content img {
-    display: block;
+    /*display: block;*/
     margin: auto;
 }
 
