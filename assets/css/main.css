@@ -1733,6 +1733,7 @@ img + small, img + br + small {
           border-radius: 100%;
   vertical-align: middle;
   /*margin-top: 30px;*/
+  display: block;
 }
 .author-desc h2 {
   margin: 0 0 10px;

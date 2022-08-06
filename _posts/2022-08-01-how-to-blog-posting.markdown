@@ -2,8 +2,8 @@
 layout: post
 read_time: true
 show_date: true
-title: GitBlog 포스팅하는 방법
-date: 2022-08-01 12:29:12 -0600
+title: GitBlog 포스팅 Tips.
+date: 2022-07-28 12:29:12 -0600
 description: post git-Blog
 img: posts/cover/typing_man.png
 tags: [gitblog, post]
