@@ -433,6 +433,11 @@ img {
   height: auto;
   max-width: 100%;
 }
+.emoji {
+  width: 1em !important;
+  height: 1em !important;
+  vertical-align: text-bottom;
+}
 a {
     color: var(--text);
     -webkit-transition: all 1s;
