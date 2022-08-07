@@ -5,12 +5,18 @@ show_date: true
 title: Apple Silicon M2, install Feast
 date: 2022-08-04 01:29:12 -0600
 description: install feast at M2
-img: posts/cover/feast.png
+img: posts/cover/feast.jpg
 tags: [feast]
 author: Kyungseon Park
 github: kyungseonpark
 toc: yes
 ---
+
+> 
+>
+> ㅠㅠㅠ 아직도 진행중입니다. 도와주십쇼.
+>
+> 
 
 # 영롱한 내 맥북 에어 M2, 근데 애물단지 옷을 입은.
 
@@ -178,7 +184,3 @@ pip install grpcio-tools
 ```
 
 하면 그냥 설치된다.
-
-
-
-> ㅠㅠㅠ 아직도 진행중이다 도와주십쇼.

@@ -5,7 +5,7 @@ show_date: true
 title: Harbor(Cloud, Server)에 Docker Push(Upload)
 date: 2022-08-03 01:29:12 -0600
 description: harbor, docker image push
-img: posts/cover/docker.png
+img: posts/cover/docker.jpg
 tags: [docker]
 author: Kyungseon Park
 github: kyungseonpark
