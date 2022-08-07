@@ -76,7 +76,7 @@ Notion처럼 동영상(YouTube)이나 웹을 직접 화면에 넣기위해 사�
 <iframe width="560" height="315" src="https://kyungseonpark.github.io/" title="PKS Git-Blog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
-<iframe width="560" height="315" src="https://kyungseonpark.github.io/" title="PKS Git-Blog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://kyungseonpark.github.io/" title="PKS Git-Blog" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Web 북마크 생성하기
 
