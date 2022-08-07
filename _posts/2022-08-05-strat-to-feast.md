@@ -12,7 +12,7 @@ github: kyungseonpark
 toc: yes
 ---
 
-:link: 출처 : <a href="https://docs.feast.dev/">docs.feast.dev</a>
+🔗 출처 : <a href="https://docs.feast.dev/">docs.feast.dev</a>
 
 # What is Feast?
 
@@ -42,12 +42,12 @@ Feast는 Feature Store의 준말로
 ## ML 데이터 구조를 분리
 
 - ML모델과 데이터파이프라인을 분리합니다.
-  - 학습모델 :arrow_right: 배포모델
-  - 오프라인스토어 :arrow_right: 온라인스토어
-  - Feast :arrow_right: 다른 시스템
+  - 학습모델 ➡️ 배포모델
+  - 오프라인스토어 ➡️ 온라인스토어
+  - Feast ➡️ 다른 시스템
 - ML engineer와 Data Scientist의 영역을 구분합니다.
   - Off-Line Store(Data Scientist)
-    - Batch Data :arrow_right: Train Data 로 사용합니다.
+    - Batch Data ➡️ Train Data 로 사용합니다.
     - 파생변수에 대한 연구가 이뤄집니다. 이를 Feast에 Apply합니다.
   - On-Line Store(ML Engineer, MLOps)
     - Streaming Data를 위한 파이프라인 구현
