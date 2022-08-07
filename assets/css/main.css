@@ -1467,10 +1467,11 @@ tweet a {
 }
 .page-content > iframe {
   position: relative;
-  top: 0;
+  top: 5px;
   left: 0;
   width: 100%;
   height: 300px;
+  border: none;
 }
 /* full width image in posts */
 img[src$="#full"] {
