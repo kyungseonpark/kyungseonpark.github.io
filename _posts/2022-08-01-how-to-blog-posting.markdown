@@ -20,6 +20,8 @@ toc: yes
 
  자기개발 비용이라고 생각할 수 있지만....닭강정 하나 사먹는게 더 좋아서 gitblog를 시작하게되었다. 근데 markdown으로 하려니 너무 어려워 정리해놓고 틈틈히 컨닝하면서 작성하기 위해 작성하는 글이다.
 
+> 참고로 Jekyll을 사용해서 포스팅중입니다.
+
 ## 포스팅정보 정리(YAML)
 
 ```yaml
@@ -39,7 +41,7 @@ toc: yes # Table of Contents
 
  Typora를 통해 작성할것같다. 이미지 저장폴더만 잘 지정해놓으면 알아서 잡힌다. 너무 편하다.
 
-<img alt="신난다 &amp;gt; 짤투데이" height="80%" src="../assets/img/posts/2022-08-01-how-to-blog-posting/KKAA_KKAA.gif" width="80%"/>
+<img alt="신난다 &amp;gt; 짤투데이" height="50%" src="../assets/img/posts/2022-08-01-how-to-blog-posting/KKAA_KKAA.gif" width="50%"/>
 
  블로그 꾸미느라 시간가는줄 몰랐다. 나의 섬세함을 한껏 뽐냈다.
 
@@ -73,7 +75,18 @@ toc: yes # Table of Contents
 Notion처럼 동영상(YouTube)이나 웹을 직접 화면에 넣기위해 사용하면 좋을것같다.
 
 ```html
-<iframe width="560" height="315" src="https://kyungseonpark.github.io/" title="PKS Git-Blog" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://kyungseonpark.github.io/" title="PKS Git-Blog" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
+
+```css
+.page-content > iframe {
+  position: relative;
+  top: 5px;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  border: none;
+}
 ```
 
 <iframe src="https://kyungseonpark.github.io/" title="PKS Git-Blog" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -85,6 +98,52 @@ Notion처럼 동영상(YouTube)이나 웹을 직접 화면에 넣기위해 사�
 ```
 
 🔗 <a href="https://kyungseonpark.github.io/">PKS Git-blog</a>
+
+## Emoji 사용하기
+
+원본 Gemfile에
+
+```ruby
+source 'https://rubygems.org'
+
+gem 'jekyll'
+
+group :jekyll_plugins do
+  gem "jekyll-paginate"
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
+end
+```
+
+Gem 'jemoji'를 추가하고
+
+```ruby
+source 'https://rubygems.org'
+
+gem 'jekyll'
+
+group :jekyll_plugins do
+  gem "jekyll-paginate"
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
+  gem "jemoji" #여기요 여기.
+end
+```
+
+_config.yml 파일에는
+
+```yaml
+plugins:
+  - jemoji
+```
+
+를 추가하여 사용하면 된다.
+
+하지만,
+
+jemoji는 image 속성을 사용하기 때문에....내 테마에서는 적용이 잘 안되더라.
+
+그래서 ctrl+cmd+space를 사용해서 그냥 이모지 입력해서 사용하는게 젤 편하더군요. 😂
 
 ## 마무리
 
