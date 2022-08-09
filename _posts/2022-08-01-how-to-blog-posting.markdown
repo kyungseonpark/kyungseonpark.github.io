@@ -6,7 +6,7 @@ title: GitBlog 포스팅 Tips
 date: 2022-08-01 12:29:12 -0600
 description: post git-Blog
 img: posts/cover/typing_man.jpg
-tags: [gitblog, post]
+tags: [gitblog]
 author: Kyungseon Park
 github: kyungseonpark
 toc: yes
