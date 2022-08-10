@@ -3,7 +3,7 @@ layout: post
 read_time: true
 show_date: true
 title: What is BentoML?
-date: 2022-08-08 12:29:12 -0600
+date: 2022-08-07 12:29:12 -0600
 description: description about BentoML.
 img: posts/cover/bento.webp
 tags: [bentoml]
