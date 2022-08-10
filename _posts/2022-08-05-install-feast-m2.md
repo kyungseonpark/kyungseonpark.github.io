@@ -5,7 +5,7 @@ show_date: true
 title: Apple Silicon M2, install Feast
 date: 2022-08-04 01:29:12 -0600
 description: install feast at M2
-img: posts/cover/feast.jpg
+img: posts/cover/feast.webp
 tags: [feast]
 author: Kyungseon Park
 github: kyungseonpark

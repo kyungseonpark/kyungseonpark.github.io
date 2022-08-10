@@ -5,7 +5,7 @@ show_date: true
 title: feast 시작하기, What is Feast?
 date: 2022-08-04 01:29:12 -0600
 description: feast 시작하기
-img: posts/cover/feast.jpg
+img: posts/cover/feast.webp
 tags: [feast]
 author: Kyungseon Park
 github: kyungseonpark
