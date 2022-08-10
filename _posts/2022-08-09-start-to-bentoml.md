@@ -5,7 +5,7 @@ show_date: true
 title: BentoML 예제로 다뤄보기.
 date: 2022-08-08 12:29:12 -0600
 description: BentoML tutorial
-img: posts/cover/bento.jpg
+img: posts/cover/bento.webp
 tags: [bentoml]
 author: Kyungseon Park
 github: kyungseonpark
