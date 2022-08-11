@@ -14,7 +14,7 @@ toc: yes
 
 🔗 출처 : <a href="https://docs.feast.dev/">docs.feast.dev</a>
 
-# What is Feast?
+# 1. What is Feast?
 
 Feast는 Feature Store의 준말로
 
@@ -63,7 +63,7 @@ Feast는 Feature Store의 준말로
 
 
 
-# Feast의 타겟 사용자는 누구일까요?
+# 2. Feast의 타겟 사용자는 누구일까요?
 
 > 
 >

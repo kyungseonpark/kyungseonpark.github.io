@@ -50,7 +50,7 @@ analytics: G-KBXYN55JLM
 # Paginate
 paginate: 8
 paginate_path: 'page:num'
-words_per_minute: 200
+words_per_minute: 50
 
 # Comments
 comments: disqus  #[disqus, utteranc]

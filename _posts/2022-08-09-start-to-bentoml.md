@@ -12,7 +12,7 @@ github: kyungseonpark/MLops-BentoML
 toc: yes
 ---
 
-# 이글의 목적
+# 1. 이글의 목적
 
 🔗  <a href="https://docs.bentoml.org/en/latest/frameworks/xgboost.html">https://docs.bentoml.org/en/latest/frameworks/xgboost.html</a>
 
@@ -28,7 +28,7 @@ sklearn에서 제공하는 <a href="https://scikit-learn.org/stable/modules/gene
 
 
 
-# BentoML 설치
+# 2. BentoML 설치
 
 2022년 8월 9일 기준 1.0.3 버전이 배포되어있습니다.
 
@@ -43,7 +43,7 @@ pip install bentoml
 
 
 
-# 모델 학습하기
+# 3. 모델 학습하기
 
 xgboost로 심장병(Breast Cancer) 이진분류모델(Binary Classification Model) 생성하기
 

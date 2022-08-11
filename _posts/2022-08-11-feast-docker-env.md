@@ -12,7 +12,7 @@ github: kyungseonpark/MLops-feast
 toc: yes
 ---
 
-# Apple Silicon M2에서 Feast 개발하기
+# 1. Apple Silicon M2에서 Feast 개발하기
 
 내 Macbook Air M2로....Feast를 개발하고싶은데 어떤 수를 써도 해결방법을 찾지 못했다. 근데 Docker로 개발환경을 구성해서 한다면 어떨까? 라는 생각을 하게됐고 이 생각의 근원은 **직장동료**가 알려줬다...
 
@@ -38,7 +38,7 @@ RAM: 24gb로 산 흑우 음머.
 
 
 
-# Docker Image 만들기
+# 2. Docker Image 만들기
 
 Dockerfile, requirements 등 기초 설정 과정입니다.
 
@@ -102,7 +102,7 @@ docker build -t feast_dev:0.23 .
 
 
 
-# PyCharm에서 환경 설정하기
+# 3. PyCharm에서 환경 설정하기
 
 환경설정(Preference)를 열어줍니다.
 

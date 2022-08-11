@@ -24,7 +24,7 @@ toc: yes
 
 
 
-# 영롱한 내 맥북 에어 M2, 근데 애물단지 옷을 입은.
+# 1. 영롱한 내 맥북 에어 M2, 근데 애물단지 옷을 입은.
 
 개인적으로 사용하던 한성게이밍노트북은 사실상 노트북이 아니다. 들고 다닐수 있는 데스크탑이다. 벽돌무게의 어댑터를 가방에 넣느라면 차량없이는 이동을 포기해야한다.
 
@@ -38,7 +38,7 @@ toc: yes
 
 
 
-# 설치를 해야 Feast를 개발하고 공부하지
+# 2. 설치를 해야 Feast를 개발하고 공부하지
 
 회사에서 받은 맥북은 운좋게도(?) intel mac 2019를 받아서 패키지 설치하는데 애로사항이 전혀 없었다.
 
@@ -67,7 +67,7 @@ pip install feast
 
 
 
-# How to run Feast on M1
+# 3. How to run Feast on M1
 
 🔗 <a href="https://github.com/feast-dev/feast/issues/2105/">https://github.com/feast-dev/feast/issues/2105</a>
 
@@ -77,7 +77,7 @@ m1 install feast 뭐 이런 검색어로 입력하면 처음 나오는 페이지
 
 
 
-# 가상환경 문제인가?
+# 4. 가상환경 문제인가?
 
 Python의 친구 Anaconda로 가상환경을 구성해서 그런건가....혹시나해서 venv로 해서 해봤다. 안됑....
 
@@ -85,7 +85,7 @@ Python의 친구 Anaconda로 가상환경을 구성해서 그런건가....혹시
 
 
 
-# Requirement를 직접 설치해보자
+# 5. Requirement를 직접 설치해보자
 
 🔗 <a href="https://github.com/feast-dev/feast/tree/v0.23-branch/sdk/python/requirements">https://github.com/feast-dev/feast/tree/v0.23-branch/sdk/python/requirements</a>
 

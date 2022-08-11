@@ -12,7 +12,7 @@ github: kyungseonpark/MLops-BentoML
 toc: yes
 ---
 
-# What is BentoML?
+# 1. What is BentoML?
 
 🔗 <a href="https://docs.bentoml.org/en/latest/index.html">https://docs.bentoml.org/en/latest/index.html</a>
 
@@ -58,7 +58,7 @@ BentoML은 ML모델을 제공하기 위한 오픈소스 프레임워크입니다
 
 
 
-# BentoML에서 배포할 수 있는 프레임워크
+# 2. BentoML에서 배포할 수 있는 프레임워크
 
 BentoML에서 배포 가능한 ML/DL framework는? 🔗 <a href="https://docs.bentoml.org/en/latest/frameworks/index.html">출처</a>
 
@@ -87,7 +87,7 @@ BentoML에서 배포 가능한 ML/DL framework는? 🔗 <a href="https://docs.be
 
 
 
-# 마무리 글.
+# 3. 마무리 글.
 
 ML기반의 AutoML 프레임워크도 다루고있으니, 예를 들면 H2O. (현재 정식 지원은 안합니다.)
 
