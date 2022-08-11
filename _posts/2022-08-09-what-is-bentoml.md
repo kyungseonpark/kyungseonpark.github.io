@@ -56,8 +56,6 @@ BentoML은 ML모델을 제공하기 위한 오픈소스 프레임워크입니다
 
 
 
-
-
 # 2. BentoML에서 배포할 수 있는 프레임워크
 
 BentoML에서 배포 가능한 ML/DL framework는? 🔗 <a href="https://docs.bentoml.org/en/latest/frameworks/index.html">출처</a>
@@ -82,8 +80,6 @@ BentoML에서 배포 가능한 ML/DL framework는? 🔗 <a href="https://docs.be
 > 라는 마인드인것 같네요.
 
 <a href="https://github.com/bentoml/BentoML/tree/main/examples">관련 예제들</a>들도 github을 통해 공유하고 있으니, 다뤄봅시다. 
-
-
 
 
 

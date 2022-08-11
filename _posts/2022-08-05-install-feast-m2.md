@@ -22,8 +22,6 @@ toc: yes
 
 
 
-
-
 # 1. 영롱한 내 맥북 에어 M2, 근데 애물단지 옷을 입은.
 
 개인적으로 사용하던 한성게이밍노트북은 사실상 노트북이 아니다. 들고 다닐수 있는 데스크탑이다. 벽돌무게의 어댑터를 가방에 넣느라면 차량없이는 이동을 포기해야한다.
@@ -33,8 +31,6 @@ toc: yes
 <img src="../assets/img/posts/2022-08-05-install-feast-m2/image-20220805223139652.png" alt="image-20220805223139652" style="zoom:67%;" />
 
 아주 영롱해....이뻐...지문 잘뭍어....잭꽂을때 코팅까질까 무서워....
-
-
 
 
 
@@ -65,15 +61,11 @@ pip install feast
 
 
 
-
-
 # 3. How to run Feast on M1
 
 🔗 <a href="https://github.com/feast-dev/feast/issues/2105/">https://github.com/feast-dev/feast/issues/2105</a>
 
 m1 install feast 뭐 이런 검색어로 입력하면 처음 나오는 페이지. Feast 개발팀의 GitHub 이슈 페이지다. m1에서 되는지는 나는 모르겠고 m2는 안됑...
-
-
 
 
 
@@ -83,15 +75,11 @@ Python의 친구 Anaconda로 가상환경을 구성해서 그런건가....혹시
 
 
 
-
-
 # 5. Requirement를 직접 설치해보자
 
 🔗 <a href="https://github.com/feast-dev/feast/tree/v0.23-branch/sdk/python/requirements">https://github.com/feast-dev/feast/tree/v0.23-branch/sdk/python/requirements</a>
 
 현재 2022년 8월 5일 기준 v0.23-branch가 최종 배포판이며 requirement에서 뭐가 문제인지 찾아보고자 하는 접근방법이다.
-
-
 
 
 
@@ -120,8 +108,6 @@ conda install -c conda-forge grpcio==1.47.0
 pip install -r py3.8-requirements.txt를 반복하면서 설치가 안되는 패키지는 이런식으로 찾아가면서 설치해보자...
 
 (이렇게까지 해야하나 싶기도 하고....VM 올려서 해볼까 하기도하고...오기가 생기더라구요.)
-
-
 
 
 

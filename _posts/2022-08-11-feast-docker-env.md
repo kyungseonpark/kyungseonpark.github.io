@@ -24,17 +24,12 @@ toc: yes
 
 ## 개발환경
 
-Device: Macbook Air M2
-
-OS: macOS Monterey v12.5
-
-CPU: M2
-
 ![image-20220811210042565](../assets/img/posts/2022-08-11-feast-docker-env/image-20220811210042565.png)
 
-RAM: 24gb로 산 흑우 음머.
-
-
+- Device: Macbook Air M2
+- OS: macOS Monterey v12.5
+- CPU: M2
+- RAM: 24gb 로 산 흑우 음머.
 
 
 
@@ -94,11 +89,9 @@ gunicorn==20.1.0
 docker build -t feast_dev:0.23 .
 ```
 
-저는 211초 정도 걸렸네요....
-
 ![image-20220811205846004](../assets/img/posts/2022-08-11-feast-docker-env/image-20220811205846004.png)
 
-
+저는 211초 정도 걸렸네요....
 
 
 
@@ -149,6 +142,8 @@ docker build -t feast_dev:0.23 .
 행복합니다....
 
 ![](../assets/img/posts/2022-08-11-feast-docker-env/jjang9_nice.jpeg)
+
+ 
 
 ![️](../assets/img/posts/2022-08-11-feast-docker-env/mcyou_cry.jpeg)
 

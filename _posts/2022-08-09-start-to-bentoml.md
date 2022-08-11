@@ -26,8 +26,6 @@ sklearn에서 제공하는 <a href="https://scikit-learn.org/stable/modules/gene
 
 
 
-
-
 # 2. BentoML 설치
 
 2022년 8월 9일 기준 1.0.3 버전이 배포되어있습니다.
@@ -38,8 +36,6 @@ pip install bentoml
 ```
 
 로 설치해봅시다.
-
-
 
 
 
@@ -92,14 +88,6 @@ latest파일에는 태그명이 저장되어 latest의 태그명(labels)[^1]을 
 # 저장되어있는 최신버전 모델 가져오기
 bento_model = bentoml.xgboost.load_model("breast_cancer_clf:latest")
 ```
-
-
-
-
-
-
-
-
 
 
 

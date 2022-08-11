@@ -24,8 +24,6 @@ toc: yes
 
 
 
-
-
 ## 포스팅정보 정리(YAML)
 
 ```yaml
@@ -40,8 +38,6 @@ Author: kyungseon park # 작성자(내이름)
 gitHub: kyungseonpark # 깃헙 옵션 프로젝트관련글일때 레포 연결
 toc: yes # Table of Contents
 ```
-
-
 
 
 
@@ -62,13 +58,9 @@ toc: yes # Table of Contents
 
 
 
-
-
 ## 코드 삽입
 
 [```]따옴표 세개 입력하고 프로그래밍 언어 or html 입력해주면된다.
-
-
 
 
 
@@ -85,8 +77,6 @@ toc: yes # Table of Contents
 1. 이런
 2. 친구들이
 3. 입력돼영
-
-
 
 
 
@@ -113,8 +103,6 @@ Notion처럼 동영상(YouTube)이나 웹을 직접 화면에 넣기위해 사�
 
 
 
-
-
 ## Web 북마크 생성하기
 
 ```html
@@ -122,8 +110,6 @@ Notion처럼 동영상(YouTube)이나 웹을 직접 화면에 넣기위해 사�
 ```
 
 🔗 <a href="https://kyungseonpark.github.io/">PKS Git-blog</a>
-
-
 
 
 
@@ -172,8 +158,6 @@ plugins:
 jemoji는 image 속성을 사용하기 때문에....내 테마에서는 적용이 잘 안되더라.
 
 그래서 ctrl+cmd+space를 사용해서 그냥 이모지 입력해서 사용하는게 젤 편하더군요. 😂
-
-
 
 
 
