@@ -8,7 +8,7 @@ description: BentoML tutorial
 img: posts/cover/bento.webp
 tags: [bentoml]
 author: Kyungseon Park
-github: kyungseonpark/MLops-BentoML
+github: kyungseonpark/MLops-BentoML/blob/main/BentoML_tutorial.ipynb
 toc: yes
 ---
 
@@ -46,8 +46,7 @@ xgboost로 심장병(Breast Cancer) 이진분류모델(Binary Classification Mod
 ```python
 # BentoML 가져와
 import bentoml
-
-from xgboost as xgb
+import xgboost as xgb
 # Toy Dataset 가져와
 from sklearn import datasets
 
@@ -66,31 +65,68 @@ fitted_clf = xgb.train(param, xgb_clf)
 ```python
 # BentoML(XGBoost) 저장하기
 saved_model = bentoml.xgboost.save_model('breast_cancer_clf', fitted_clf)
-print(f'Model saved: {saved_model}')
+print(f'Model saved: {saved_model.tag}')
 
 """
 OutPut:
-Model saved: Model(tag="breast_cancer_clf:nxzdk6qynotdjfqt")
+Model saved: breast_cancer_clf:nxzdk6qynotdjfqt
 """
 ```
 
-저장된 모델들은 어디에 있나? 기본 저장경로는 ~/bnetoml 하위 폴더로 저장됩니다.
+저장된 모델들은 어디에 있나?
 
 <img src="../assets/img/posts/2022-08-09-start-to-bentoml/image-20220810145022809.png" alt="image-20220810145022809" style="zoom:80%;" />
+
+ 기본 저장경로는 ~/bnetoml 하위 폴더로 저장됩니다.
 
 이렇게 **~/bentoml/models/${model_name}**에 폴더(태그명)로서 버전관리가 되며 저장됩니다.
 
 ![image-20220810145226175](../assets/img/posts/2022-08-09-start-to-bentoml/image-20220810145226175.png)
 
-latest파일에는 태그명이 저장되어 latest의 태그명(labels)[^1]을 관리하고있습니다. 그래서 latest 태그로 최신 모델을 불러올 수 있습니다.
+latest파일에는 태그명이 저장되어 latest의 태그명(labels)[^1]을 관리하고있습니다.
 
 ```python
 # 저장되어있는 최신버전 모델 가져오기
 bento_model = bentoml.xgboost.load_model("breast_cancer_clf:latest")
 ```
 
+그래서 latest 태그로 최신 모델을 불러올 수 있습니다.
 
 
-TBA
+
+# 4. Model을 Runner로, Runner를 Service로
+
+```python
+"""
+service.py로 저장.
+"""
+import bentoml
+from bentoml.io import JSON
+
+# Model을 Runner로
+breast_runner = bentoml.xgboost.get('breast_cancer_clf:latest').to_runner()
+
+# Runner를 Service로
+bento_service = bentoml.Service("breast_cancer_clf_service", runners=[breast_runner])
+
+# Service에 Custom API 추가
+@bento_service.api(input=JSON(), output=JSON())
+def predict(input_data: dict) -> dict:
+    res = dict()
+    res['y_pred'] = breast_runner.predict.run(input_data)
+    return res
+```
+
+
+
+# 5. BentoML Service 배포
+
+```shell
+bentoml serve service:bento_service --reload
+```
+
+FastAPI처럼 app(bento_service)를 직접 설정하여 백엔드서버를 실행하게 됩니다.
+
+
 
 [^1]: docker에서는 태그(tag), BentoML에서는 Labels로 표현한다. 
