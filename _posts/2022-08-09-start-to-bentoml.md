@@ -26,6 +26,8 @@ sklearn에서 제공하는 <a href="https://scikit-learn.org/stable/modules/gene
 
 
 
+
+
 # BentoML 설치
 
 2022년 8월 9일 기준 1.0.3 버전이 배포되어있습니다.
@@ -36,6 +38,8 @@ pip install bentoml
 ```
 
 로 설치해봅시다.
+
+
 
 
 

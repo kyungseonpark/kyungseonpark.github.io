@@ -38,6 +38,10 @@ services:
     tty: true
 ```
 
+
+
+
+
 # 2. docker image tagging
 
 Docker image를 태깅(tagging)해서 이미지 이름을 재정의해준다.
@@ -48,6 +52,10 @@ docker tag ${local_image_name} ${harbor_address}/${harbor_project}/${harbor_imag
 # example
 docker tag feast_test_feast:latest harbor.add/harbor_pro/feast:latest
 ```
+
+
+
+
 
 # 3. docker image push
 

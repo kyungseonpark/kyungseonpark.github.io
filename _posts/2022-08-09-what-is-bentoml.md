@@ -35,12 +35,16 @@ BentoML은 ML모델을 제공하기 위한 오픈소스 프레임워크입니다
 
 <img src="../assets/img/posts/2022-08-09-what-is-bentoml/img.png" alt="휴먼강록체, 근데 이제 ~를 곁들인" style="zoom:50%;" />
 
+
+
 ### Docker가 있어서 BentoML이 갖는 장점
 
 - Docker Daemon이 있으면 어디서든 Server로서 운용할 수 있다.
 - BentoML의 배포가 빨라지고 쉽게 표준화 할 수 있다.
 - 같은 모델을 여러개 띄워 확장성을 쉽게 넓힐 수 있다. (Scale-Out)
 - 리소스 사용량 체크가 쉬움.
+
+
 
 ### FastAPI가 있어서 BentoML이 갖는 장점
 
@@ -49,6 +53,8 @@ BentoML은 ML모델을 제공하기 위한 오픈소스 프레임워크입니다
 - 쉬운 마이그레이션
 - 쉬운 보안 적용
 - Customize가 쉬워짐.
+
+
 
 
 
@@ -76,6 +82,8 @@ BentoML에서 배포 가능한 ML/DL framework는? 🔗 <a href="https://docs.be
 > 라는 마인드인것 같네요.
 
 <a href="https://github.com/bentoml/BentoML/tree/main/examples">관련 예제들</a>들도 github을 통해 공유하고 있으니, 다뤄봅시다. 
+
+
 
 
 

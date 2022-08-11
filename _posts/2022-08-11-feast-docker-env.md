@@ -20,6 +20,8 @@ toc: yes
 
 
 
+
+
 ## 개발환경
 
 Device: Macbook Air M2
@@ -34,9 +36,13 @@ RAM: 24gb로 산 흑우 음머.
 
 
 
+
+
 # Docker Image 만들기
 
 Dockerfile, requirements 등 기초 설정 과정입니다.
+
+
 
 ## Dockerfile
 
@@ -54,6 +60,8 @@ COPY requirements-feast.txt /tmp/requirements.txt
 # install package
 RUN pip install -r /tmp/requirements.txt
 ```
+
+
 ## requirements-feast.txt
 
 ```python
@@ -71,6 +79,8 @@ python-multipart==0.0.5
 gunicorn==20.1.0
 ```
 
+
+
 ## docker build
 
 이제 이미지 빌드해줘야죠.
@@ -80,6 +90,7 @@ gunicorn==20.1.0
 # -t: tag명 설정하는 옵션
 # feast_dev:0.23: docker image name:version_tag
 # .: Dockerfile이 있는 경로
+
 docker build -t feast_dev:0.23 .
 ```
 
@@ -89,9 +100,13 @@ docker build -t feast_dev:0.23 .
 
 
 
+
+
 # PyCharm에서 환경 설정하기
 
 환경설정(Preference)를 열어줍니다.
+
+
 
 ## 인터프리터, 가상환경 설정해주기
 
@@ -125,13 +140,15 @@ docker build -t feast_dev:0.23 .
 
 너무 행복해....뻘짓했던거 생각하면..
 
+
+
 ## import feast
 
 ![image-20220811212157996](../assets/img/posts/2022-08-11-feast-docker-env/image-20220811212157996.png)
 
 행복합니다....
 
-![행복딴거없다 우원재 - 짤로 쓰기 좋은 짱구는 못말려 짤 모음 | Facebook](../assets/img/posts/2022-08-11-feast-docker-env/jjang9_nice.jpeg)
+![](../assets/img/posts/2022-08-11-feast-docker-env/jjang9_nice.jpeg)
 
-![전체 게시판 - 다재 행복짤을 봐도 눈물이 나요🤦‍♀️](../assets/img/posts/2022-08-11-feast-docker-env/mcyou_cry.jpeg)
+![️](../assets/img/posts/2022-08-11-feast-docker-env/mcyou_cry.jpeg)
 

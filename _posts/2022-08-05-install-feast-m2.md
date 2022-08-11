@@ -12,11 +12,17 @@ github: kyungseonpark/MLops-feast
 toc: yes
 ---
 
-> 
->
-> ㅠㅠㅠ 아직도 진행중입니다. 도와주십쇼.
->
-> 
+# 밑에는 뻘짓입니다.
+
+그래도 혹시나해서 남겨놨습니다. 도움이 되어 로컬에서도 환경구성을 할지도 모르잖아요.
+
+🔗 https://kyungseonpark.github.io/feast-docker-env.html
+
+여기로 가세요. docker로 구성하는 방법이 있습니다.
+
+
+
+
 
 # 영롱한 내 맥북 에어 M2, 근데 애물단지 옷을 입은.
 
@@ -27,6 +33,10 @@ toc: yes
 <img src="../assets/img/posts/2022-08-05-install-feast-m2/image-20220805223139652.png" alt="image-20220805223139652" style="zoom:67%;" />
 
 아주 영롱해....이뻐...지문 잘뭍어....잭꽂을때 코팅까질까 무서워....
+
+
+
+
 
 # 설치를 해야 Feast를 개발하고 공부하지
 
@@ -53,21 +63,37 @@ pip install feast
 
 이글을 쓰면서도 이 설치가 성공할지 모른다. 우선 해봤던 짓을 기록하면서 혹시나 찾아와서 읽는 분들의 시간을 아껴주고자 한다.
 
+
+
+
+
 # How to run Feast on M1
 
 🔗 <a href="https://github.com/feast-dev/feast/issues/2105/">https://github.com/feast-dev/feast/issues/2105</a>
 
 m1 install feast 뭐 이런 검색어로 입력하면 처음 나오는 페이지. Feast 개발팀의 GitHub 이슈 페이지다. m1에서 되는지는 나는 모르겠고 m2는 안됑...
 
+
+
+
+
 # 가상환경 문제인가?
 
 Python의 친구 Anaconda로 가상환경을 구성해서 그런건가....혹시나해서 venv로 해서 해봤다. 안됑....
+
+
+
+
 
 # Requirement를 직접 설치해보자
 
 🔗 <a href="https://github.com/feast-dev/feast/tree/v0.23-branch/sdk/python/requirements">https://github.com/feast-dev/feast/tree/v0.23-branch/sdk/python/requirements</a>
 
 현재 2022년 8월 5일 기준 v0.23-branch가 최종 배포판이며 requirement에서 뭐가 문제인지 찾아보고자 하는 접근방법이다.
+
+
+
+
 
 ## py3.8-requirements.txt
 
@@ -95,11 +121,17 @@ pip install -r py3.8-requirements.txt를 반복하면서 설치가 안되는 패
 
 (이렇게까지 해야하나 싶기도 하고....VM 올려서 해볼까 하기도하고...오기가 생기더라구요.)
 
+
+
+
+
 ## py3.8-ci-requirements.txt
 
 ``` shell
 pip install -r py3.8-ci-requirements.txt
 ```
+
+
 
 ### mysqlclient Error
 
@@ -160,6 +192,8 @@ pip install mysqlclient==2.1.1
 
 가 설치된다.....ㅠㅠ
 
+
+
 ### psycopg2-binary Error
 
 subprocess-exited-with-error
@@ -176,6 +210,8 @@ brew install postgres
 pip install psycopg2
 pip install psycopg2-binary==2.9.3
 ```
+
+
 
 ### gracious-tools Error
 
