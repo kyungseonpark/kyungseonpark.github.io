@@ -8,7 +8,7 @@ description: install feast at M2
 img: posts/cover/feast.webp
 tags: [feast]
 author: Kyungseon Park
-github: kyungseonpark
+github: kyungseonpark/MLops-feast
 toc: yes
 ---
 

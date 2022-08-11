@@ -8,7 +8,7 @@ description: post git-Blog
 img: posts/cover/typing_man.webp
 tags: [gitblog]
 author: Kyungseon Park
-github: kyungseonpark
+github: kyungseonpark/kyungseonpark.github.io
 toc: yes
 ---
 

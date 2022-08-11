@@ -8,7 +8,7 @@ description: description about BentoML.
 img: posts/cover/bento.webp
 tags: [bentoml]
 author: Kyungseon Park
-github: kyungseonpark
+github: kyungseonpark/MLops-BentoML
 toc: yes
 ---
 
@@ -29,17 +29,17 @@ BentoML은 ML모델을 제공하기 위한 오픈소스 프레임워크입니다
 
 > ***BentoML = ML+ FastAPI + Docker 입니다. 🍱***
 
-![Getting Started with Docker & Fast API 🚀🚀 - DEV Community](../assets/img/posts/2022-08-09-start-to-bentoml/l4jt274288k241g94r66.png)
+![Getting Started with Docker & Fast API 🚀🚀 - DEV Community](../assets/img/posts/2022-08-09-what-is-bentoml/l4jt274288k241g94r66.png)
 
-우리가 생각할 수 있는 모델(ML/DL)을 컨테이너화(Docerize) 합니다. 근데 FastAPI로 Back-end End-point를 곁들인.
+우리가 생각할 수 있는 모델(ML/DL)을 컨테이너화(Containerize) 합니다. 근데 FastAPI로 Back-end End-point를 곁들인.
 
-<img src="../assets/img/posts/2022-08-09-start-to-bentoml/img.png" alt="휴먼강록체, 근데 이제 ~를 곁들인" style="zoom:50%;" />
+<img src="../assets/img/posts/2022-08-09-what-is-bentoml/img.png" alt="휴먼강록체, 근데 이제 ~를 곁들인" style="zoom:50%;" />
 
 ### Docker가 있어서 BentoML이 갖는 장점
 
 - Docker Daemon이 있으면 어디서든 Server로서 운용할 수 있다.
 - BentoML의 배포가 빨라지고 쉽게 표준화 할 수 있다.
-- 같은 모델을 여러개 띄워 확장성을 쉽게 넓힐 수 있다. (like Scale-Out)
+- 같은 모델을 여러개 띄워 확장성을 쉽게 넓힐 수 있다. (Scale-Out)
 - 리소스 사용량 체크가 쉬움.
 
 ### FastAPI가 있어서 BentoML이 갖는 장점

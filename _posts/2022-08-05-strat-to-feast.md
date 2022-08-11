@@ -8,7 +8,7 @@ description: feast 시작하기
 img: posts/cover/feast.webp
 tags: [feast]
 author: Kyungseon Park
-github: kyungseonpark
+github: kyungseonpark/MLops-feast
 toc: yes
 ---
 
