@@ -77,7 +77,7 @@ Model saved: breast_cancer_clf:nxzdk6qynotdjfqt
 
 <img src="../assets/img/posts/2022-08-09-start-to-bentoml/image-20220810145022809.png" alt="image-20220810145022809" style="zoom:80%;" />
 
- 기본 저장경로는 ~/bnetoml 하위 폴더로 저장됩니다.
+ 기본 저장경로는 ~/bentoml 하위 폴더로 저장됩니다.
 
 이렇게 **~/bentoml/models/${model_name}**에 폴더(태그명)로서 버전관리가 되며 저장됩니다.
 

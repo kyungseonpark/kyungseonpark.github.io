@@ -16,7 +16,7 @@ toc: yes
 
 그래도 혹시나해서 남겨놨습니다. 도움이 되어 로컬에서도 환경구성을 할지도 모르잖아요.
 
-🔗 https://kyungseonpark.github.io/feast-docker-env.html
+🔗 <a href="https://kyungseonpark.github.io/feast-docker-env.html">https://kyungseonpark.github.io/feast-docker-env.html</a>
 
 여기로 가세요. docker로 구성하는 방법이 있습니다.
 
@@ -206,3 +206,11 @@ pip install grpcio-tools
 ```
 
 하면 그냥 설치된다.
+
+
+
+# 하지만, 실패했다.
+
+🔗 <a href="https://kyungseonpark.github.io/feast-docker-env.html">https://kyungseonpark.github.io/feast-docker-env.html
+
+그래서 Docker Daemon으로 띄웠다.. 관련 방법은 다시 언급합니다. 위에서 안읽으셨을까봐.
