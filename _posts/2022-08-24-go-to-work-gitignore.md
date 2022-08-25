@@ -3,12 +3,12 @@ layout: post
 read_time: true
 show_date: true
 title: 일해라 .gitignore
-date: 2022-08-24 12:29:12 -0600
+date: 2022-08-23 12:29:12 -0600
 description: Gitignore, go to work. 
 img: posts/cover/git.webp
 tags: [git]
 author: Kyungseon Park
-github: kyungseonpark/MLops-BentoML
+github: kyungseonpark
 toc: yes
 ---
 
