@@ -29,11 +29,11 @@ BentoML은 ML모델을 제공하기 위한 오픈소스 프레임워크입니다
 
 > ***BentoML = ML+ FastAPI + Docker 입니다. 🍱***
 
-![Getting Started with Docker & Fast API 🚀🚀 - DEV Community](../assets/img/posts/2022-08-09-what-is-bentoml/l4jt274288k241g94r66.png)
+![Getting Started with Docker & Fast API 🚀🚀 - DEV Community](../../assets/img/posts/2022-08-09-what-is-bentoml/l4jt274288k241g94r66.png)
 
 우리가 생각할 수 있는 모델(ML/DL)을 컨테이너화(Containerize) 합니다. 근데 FastAPI로 Back-end End-point를 곁들인.
 
-<img src="../assets/img/posts/2022-08-09-what-is-bentoml/img.png" alt="휴먼강록체, 근데 이제 ~를 곁들인" style="zoom:50%;" />
+<img src="../../assets/img/posts/2022-08-09-what-is-bentoml/img.png" alt="휴먼강록체, 근데 이제 ~를 곁들인" style="zoom:50%;" />
 
 
 
@@ -89,5 +89,5 @@ ML기반의 AutoML 프레임워크도 다루고있으니, 예를 들면 H2O. (�
 
 잘 정제된 데이터(Tabluar type)만 있으면 이걸로 모델을 배포할 수 있도록 토이프로젝트를 해볼까 합니다. 재밌을것 같지 않아유?
 
-<img src="../assets/img/posts/2022-08-09-what-is-bentoml/VD13652524_w640.jpg" alt="백종원의 3대 천왕 : 하니, 라면 먹방하며 깨알 같은 백종원 흉내 “재밌네” : SBS" style="zoom: 33%;" />
+<img src="../../assets/img/posts/2022-08-09-what-is-bentoml/VD13652524_w640.jpg" alt="백종원의 3대 천왕 : 하니, 라면 먹방하며 깨알 같은 백종원 흉내 “재밌네” : SBS" style="zoom: 33%;" />
 

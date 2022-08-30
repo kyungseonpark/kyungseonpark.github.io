@@ -23,7 +23,7 @@ Docker-compose up을 하고 볼륨을 잡고.
 volumes/
 ```
 
-![image-20220824223509804](../assets/img/posts/2022-08-24-go-to-work-gitignore/image-20220824223509804.png)
+![image-20220824223509804](../../assets/img/posts/2022-08-24-go-to-work-gitignore/image-20220824223509804.png)
 
 ?
 
@@ -42,4 +42,4 @@ git add .
 git commit -m "fix: blah blah"
 ```
 
-![편안 짤과 움짤 모음 - 짤봇](../assets/img/posts/2022-08-24-go-to-work-gitignore/Vgvs95YpK-1348249.jpeg)
+![편안 짤과 움짤 모음 - 짤봇](../../assets/img/posts/2022-08-24-go-to-work-gitignore/Vgvs95YpK-1348249.jpeg)

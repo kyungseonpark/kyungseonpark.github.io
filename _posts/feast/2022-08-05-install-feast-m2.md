@@ -28,7 +28,7 @@ toc: yes
 
 그래서 맥북 에어를 개인용으로 사서 공부를 하겠노라라는 다짐을 몇번이곤 했다. 하지만 M1을 2022년에 와서 산다는 것은 테크충인 내게 용납할 수 없었다. 그래서 얼마전 기다리고 기다리던 MacBook Air M2를 구매했다.
 
-<img src="../assets/img/posts/2022-08-05-install-feast-m2/image-20220805223139652.png" alt="image-20220805223139652" style="zoom:67%;" />
+<img src="../../assets/img/posts/2022-08-05-install-feast-m2/image-20220805223139652.png" alt="image-20220805223139652" style="zoom:67%;" />
 
 아주 영롱해....이뻐...지문 잘뭍어....잭꽂을때 코팅까질까 무서워....
 
@@ -38,11 +38,11 @@ toc: yes
 
 회사에서 받은 맥북은 운좋게도(?) intel mac 2019를 받아서 패키지 설치하는데 애로사항이 전혀 없었다.
 
-![편안 짤과 움짤 모음 - 짤봇](../assets/img/posts/2022-08-05-install-feast-m2/Vgvs95YpK.jpeg)
+![편안 짤과 움짤 모음 - 짤봇](../../assets/img/posts/2022-08-05-install-feast-m2/Vgvs95YpK.jpeg)
 
 근데 이놈의 M2, Apple Silicon은 개복치다. 패키치 설치만 할려치면 Error, Error, Error.
 
-<img src="../assets/img/posts/2022-08-05-install-feast-m2/before.jpg" alt="rajephon lab - 개비스콘 짤 생성기" style="zoom:50%;" />
+<img src="../../assets/img/posts/2022-08-05-install-feast-m2/before.jpg" alt="rajephon lab - 개비스콘 짤 생성기" style="zoom:50%;" />
 
 ```dockerfile
 pip install feast
@@ -103,7 +103,7 @@ conda install -c conda-forge grpcio==1.47.0
 
 으로 한스텝 넘어가보자.
 
-<img src="../assets/img/posts/2022-08-05-install-feast-m2/img.jpg" alt="위대한 개츠비' 디카프리오가 건배하던 와인, 대체 뭘까요?" style="zoom:33%;" />
+<img src="../../assets/img/posts/2022-08-05-install-feast-m2/img.jpg" alt="위대한 개츠비' 디카프리오가 건배하던 와인, 대체 뭘까요?" style="zoom:33%;" />
 
 pip install -r py3.8-requirements.txt를 반복하면서 설치가 안되는 패키지는 이런식으로 찾아가면서 설치해보자...
 

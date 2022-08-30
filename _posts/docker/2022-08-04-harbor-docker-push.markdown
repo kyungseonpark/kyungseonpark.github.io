@@ -28,7 +28,7 @@ version: "2.4"
 services:
   feast_local:
     build:
-      context: .
+      context: ..
       dockerfile: Dockerfile-feast
     environment:
       TZ: "Asia/Seoul"

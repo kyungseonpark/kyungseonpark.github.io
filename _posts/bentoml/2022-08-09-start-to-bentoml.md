@@ -75,13 +75,13 @@ Model saved: breast_cancer_clf:nxzdk6qynotdjfqt
 
 저장된 모델들은 어디에 있나?
 
-<img src="../assets/img/posts/2022-08-09-start-to-bentoml/image-20220810145022809.png" alt="image-20220810145022809" style="zoom:80%;" />
+<img src="../../assets/img/posts/2022-08-09-start-to-bentoml/image-20220810145022809.png" alt="image-20220810145022809" style="zoom:80%;" />
 
  기본 저장경로는 ~/bentoml 하위 폴더로 저장됩니다.
 
 이렇게 **~/bentoml/models/${model_name}**에 폴더(태그명)로서 버전관리가 되며 저장됩니다.
 
-![image-20220810145226175](../assets/img/posts/2022-08-09-start-to-bentoml/image-20220810145226175.png)
+![image-20220810145226175](../../assets/img/posts/2022-08-09-start-to-bentoml/image-20220810145226175.png)
 
 latest파일에는 태그명이 저장되어 latest의 태그명(labels)[^1]을 관리하고있습니다.
 

@@ -24,7 +24,7 @@ toc: yes
 
 ## 개발환경
 
-![image-20220811210042565](../assets/img/posts/2022-08-11-feast-docker-env/image-20220811210042565.png)
+![image-20220811210042565](../../assets/img/posts/2022-08-11-feast-docker-env/image-20220811210042565.png)
 
 - Device: Macbook Air M2
 - OS: macOS Monterey v12.5
@@ -89,7 +89,7 @@ gunicorn==20.1.0
 docker build -t feast_dev:0.23 .
 ```
 
-![image-20220811205846004](../assets/img/posts/2022-08-11-feast-docker-env/image-20220811205846004.png)
+![image-20220811205846004](../../assets/img/posts/2022-08-11-feast-docker-env/image-20220811205846004.png)
 
 저는 211초 정도 걸렸네요....
 
@@ -103,33 +103,33 @@ docker build -t feast_dev:0.23 .
 
 ## 인터프리터, 가상환경 설정해주기
 
-![image-20220811210541648](../assets/img/posts/2022-08-11-feast-docker-env/image-20220811210541648.png)
+![image-20220811210541648](../../assets/img/posts/2022-08-11-feast-docker-env/image-20220811210541648.png)
 
 프로젝트:${프로젝트명} 탭을 눌러 python 인터프리터를 눌러줍니다.
 
 인터프리터 추가를 눌러줍니다.
 
-![image-20220811210645996](../assets/img/posts/2022-08-11-feast-docker-env/image-20220811210645996.png)
+![image-20220811210645996](../../assets/img/posts/2022-08-11-feast-docker-env/image-20220811210645996.png)
 
 그럼 이렇게 뜨는데, Docker를 눌러줍니다.
 
-![image-20220811210725301](../assets/img/posts/2022-08-11-feast-docker-env/image-20220811210725301.png)
+![image-20220811210725301](../../assets/img/posts/2022-08-11-feast-docker-env/image-20220811210725301.png)
 
-![image-20220811210756264](../assets/img/posts/2022-08-11-feast-docker-env/image-20220811210756264.png)
+![image-20220811210756264](../../assets/img/posts/2022-08-11-feast-docker-env/image-20220811210756264.png)
 
 +눌러서 새로 만들어주고 저는 이름을 feast로 했어요.
 
-![image-20220811211016141](../assets/img/posts/2022-08-11-feast-docker-env/image-20220811211016141.png)
+![image-20220811211016141](../../assets/img/posts/2022-08-11-feast-docker-env/image-20220811211016141.png)
 
 그냥 다음, 다음 누르세요.
 
-![image-20220811211045578](../assets/img/posts/2022-08-11-feast-docker-env/image-20220811211045578.png)
+![image-20220811211045578](../../assets/img/posts/2022-08-11-feast-docker-env/image-20220811211045578.png)
 
 시스템 인터프리터 설정하고 생성하기.
 
 그럼 이제 인터프리터 업데이트만 기다리면 됩니다.
 
-![image-20220811211149494](../assets/img/posts/2022-08-11-feast-docker-env/image-20220811211149494.png)
+![image-20220811211149494](../../assets/img/posts/2022-08-11-feast-docker-env/image-20220811211149494.png)
 
 너무 행복해....뻘짓했던거 생각하면..
 
@@ -137,13 +137,13 @@ docker build -t feast_dev:0.23 .
 
 ## import feast
 
-![image-20220811212157996](../assets/img/posts/2022-08-11-feast-docker-env/image-20220811212157996.png)
+![image-20220811212157996](../../assets/img/posts/2022-08-11-feast-docker-env/image-20220811212157996.png)
 
 행복합니다....
 
-![](../assets/img/posts/2022-08-11-feast-docker-env/jjang9_nice.jpeg)
+![](../../assets/img/posts/2022-08-11-feast-docker-env/jjang9_nice.jpeg)
 
  
 
-![️](../assets/img/posts/2022-08-11-feast-docker-env/mcyou_cry.jpeg)
+![️](../../assets/img/posts/2022-08-11-feast-docker-env/mcyou_cry.jpeg)
 
