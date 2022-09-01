@@ -3,7 +3,7 @@ layout: post
 read_time: true
 show_date: true
 title: python basic, 이름 없는 함수 lambda
-date: 2022-08-30 12:29:12 -0600
+date: 2022-08-28 12:29:12 -0600
 description: python basic, lambda description
 img: posts/cover/python.webp
 tags: [python]
